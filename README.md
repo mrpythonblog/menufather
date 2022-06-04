@@ -1,16 +1,16 @@
-# mmenu Ver 1.0
-**mmenu** is a simple and lightweight python library for creating console-based menus (windows / linux) . 
+# menufather Ver 1.0
+**menufather** is a simple and lightweight python library for creating console-based menus (windows / linux) . 
 
 # INSTALLATION
 it can installed using **pip** :
-**Linux** : ```python3 -m pip install mmenu```
-or **Windows** : ``` pip install mmenu```
+**Linux** : ```python3 -m pip install menufather```
+or **Windows** : ``` pip install menufather```
 
 
 # Creating the first menu !
 ![creating the first menu](.Pictures/source1.png)
 at first we declare our menu items in the "items" list as strings . 
-then we create a menu using ```mmenu.Menu(title , items)``` function . after that , we can show our menu using ```menu.show()``` method. 
+then we create a menu using ```menufather.Menu(title , items)``` function . after that , we can show our menu using ```menu.show()``` method. 
 * we should make a loop in our program .
 * in our while loop we should use a **sleep** (ex : 0.5s sleep)
 
@@ -37,7 +37,7 @@ after running this source , if we select "goto menu 2" item , a new menu appears
 
 
 # Auto Scrolling  
-if your items are too many , don't worry ! mmenu simulate a scrolling state for items :
+if your items are too many , don't worry ! menufather simulate a scrolling state for items :
 ![too many item scrolling](.Pictures/toomanyitem.gif)
 
 
