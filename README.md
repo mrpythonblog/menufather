@@ -36,8 +36,9 @@ example :
 after running this source , if we select "goto menu 2" item , a new menu appears (menu 2) ...
 
 
-
-
+# Auto Scrolling  
+if your items are too many , don't worry ! climenu simulate a scrolling state for items :
+![too many item scrolling](https://bayanbox.ir/download/5294191248785483173/toomanyitem.gif)
 
 
 
