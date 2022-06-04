@@ -1,11 +1,11 @@
-import climenu
+import mmenu
 import time
 
 title1 = "Title of menu 1"
 title2 = "Title of menu 2"
 items1 = ["goto menu 2" , "alaki" , "About" , "Exit"]
 items2 = ["first item" , "second item" , "back"]
-menu = climenu.Menu(title = title1 , items = items1)
+menu = mmenu.Menu(title = title1 , items = items1)
 menu.show() # show the menu
 
 while True: # our program main loop

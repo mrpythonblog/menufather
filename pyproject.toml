@@ -5,8 +5,8 @@ requires      = ["setuptools>=61.0.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "climenu"
-version = "1.0.0"
+name = "mmenu"
+version = "1.5.0"
 description = "a library for creating console-based menus (linux / windows)"
 readme = "README.md"
 authors = [{ name = "MrPythonBlog", email = "mrpythonblog@gmail.com" }]
@@ -24,6 +24,6 @@ dependencies = [
 requires-python = ">=3.5"
 
 [project.urls]
-Homepage = "https://github.com/mrpythonblog/climenu"
+Homepage = "https://github.com/mrpythonblog/mmenu"
 
 

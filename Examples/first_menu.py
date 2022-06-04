@@ -1,9 +1,9 @@
-import climenu
+import mmenu
 import time
 
 title = "Title of menu"
 items = ["First Button" , "Second Button" , "About" , "Exit"]
-menu = climenu.Menu(title = title , items = items)
+menu = mmenu.Menu(title = title , items = items)
 menu.show() # show the menu
 
 while True: # our program main loop
