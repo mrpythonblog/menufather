@@ -40,9 +40,7 @@ after running this source , if we select "goto menu 2" item , a new menu appears
 
 
 # Auto Scrolling  
-if your items are too many , don't worry ! menufather simulate a scrolling state for items :
-![too many item scrolling](https://github.com/mrpythonblog/menufather/raw/main/Pictures/toomanyitem.gif)
-
+if your items are too many , don't worry ! menufather simulate a scrolling state for items !
 
 
 
