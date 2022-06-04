@@ -8,7 +8,7 @@ or **Windows** : ``` pip install menufather```
 
 
 # Creating the first menu !
-![creating the first menu](.Pictures/source1.png)
+![creating the first menu](https://github.com/mrpythonblog/menufather/raw/main/Pictures/source1.png)
 at first we declare our menu items in the "items" list as strings . 
 then we create a menu using ```menufather.Menu(title , items)``` function . after that , we can show our menu using ```menu.show()``` method. 
 * we should make a loop in our program .
