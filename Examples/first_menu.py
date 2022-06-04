@@ -1,9 +1,9 @@
-import mmenu
+import menufather
 import time
 
 title = "Title of menu"
 items = ["First Button" , "Second Button" , "About" , "Exit"]
-menu = mmenu.Menu(title = title , items = items)
+menu = menufather.Menu(title = title , items = items)
 menu.show() # show the menu
 
 while True: # our program main loop
