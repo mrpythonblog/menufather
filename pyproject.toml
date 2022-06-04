@@ -1,0 +1,29 @@
+# pyproject.toml
+
+[build-system]
+requires      = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "climenu"
+version = "1.0.0"
+description = "a library for creating console-based menus (linux / windows)"
+readme = "README.md"
+authors = [{ name = "MrPythonBlog", email = "mrpythonblog@gmail.com" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+dependencies = [
+    "colorama",
+    "cursor",
+	"pynput"]
+
+requires-python = ">=3.5"
+
+[project.urls]
+Homepage = "https://github.com/mrpythonblog/climenu"
+
+
