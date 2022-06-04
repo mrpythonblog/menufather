@@ -43,7 +43,7 @@ class menu_windows:
         listener = keyboard.Listener(on_press=self.on_press_key) # set keyboard listener
         listener.start()
 
-    def show_menu(self):
+    def show(self):
         self.banner = ""
         os.system("cls")
         cursor.hide()
@@ -80,13 +80,13 @@ class menu_windows:
                         if self.current_item > 0 :
                             self.current_item -= 1
                             self.current_item_section = self.current_item // self.item_per_menu
-                        self.show_menu()
+                        self.show()
                 elif name == "down":
                     if not self.locked:
                         if self.current_item < len(self.items) - 1:
                             self.current_item += 1
                             self.current_item_section = self.current_item // self.item_per_menu
-                        self.show_menu()
+                        self.show()
                 elif name == "enter":
                     if not self.locked:
                         self.selected_item = self.current_item
@@ -108,7 +108,7 @@ class menu_windows:
     def updateItem(self , itemIndex , new):
         self.items[itemIndex] = new
         self.initItems(self.current_item_section)
-        self.show_menu()
+        self.show()
 
     def lock(self):
         self.locked = True
@@ -122,7 +122,7 @@ class menu_windows:
         self.current_item = 0
         self.initItems() 
         self.clear_selected_item()
-        self.show_menu()
+        self.show()
     
     def initItems(self,current_item_section = 0):
         max_length = 0
@@ -152,7 +152,7 @@ class menu_windows:
         else:
             self.statusbar = ""
         
-        self.show_menu()
+        self.show()
 
 
 class menu_linux:
@@ -183,7 +183,7 @@ class menu_linux:
         window_id = window_id.group(1)
         return window_id
 
-    def show_menu(self):
+    def show(self):
         self.banner = ""
         os.system("clear")
         cursor.hide()
@@ -219,13 +219,13 @@ class menu_linux:
                         if self.current_item > 0 :
                             self.current_item -= 1
                             self.current_item_section = self.current_item // self.item_per_menu
-                        self.show_menu()
+                        self.show()
                 elif name == "down":
                     if not self.locked:
                         if self.current_item < len(self.items) - 1:
                             self.current_item += 1
                             self.current_item_section = self.current_item // self.item_per_menu
-                        self.show_menu()
+                        self.show()
                 elif name == "enter":
                     if not self.locked:
                         self.selected_item = self.current_item
@@ -244,7 +244,7 @@ class menu_linux:
     def updateItem(self , itemIndex , new):
         self.items[itemIndex] = new
         self.initItems(self.current_item_section)
-        self.show_menu()
+        self.show()
 
     def lock(self):
         self.locked = True
@@ -258,7 +258,7 @@ class menu_linux:
         self.current_item = 0
         self.initItems() 
         self.clear_selected_item()
-        self.show_menu()
+        self.show()
     
     def initItems(self,current_item_section = 0):
         max_length = 0
@@ -288,4 +288,4 @@ class menu_linux:
         else:
             self.statusbar = ""
         
-        self.show_menu()
+        self.show()
