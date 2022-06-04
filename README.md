@@ -9,6 +9,7 @@ or **Windows** : ``` pip install menufather```
 
 # Creating the first menu !
 ![creating the first menu](https://github.com/mrpythonblog/menufather/raw/main/Pictures/source1.png)
+
 at first we declare our menu items in the "items" list as strings . 
 then we create a menu using ```menufather.Menu(title , items)``` function . after that , we can show our menu using ```menu.show()``` method. 
 * we should make a loop in our program .
@@ -19,7 +20,8 @@ then we create a menu using ```menufather.Menu(title , items)``` function . afte
 once we get selected item by this function , the next round this function returns **None** until user selects another item so we should save the result of this function in a variable at the first of loop (```selected``` variable) .
 
 Result : 
-![result 1](.Pictures/result1.png)
+![result 1](https://github.com/mrpythonblog/menufather/raw/main/Pictures/result1.png)
+
 # Locking and Unlocking Menu
 the two methods ```menu.lock()``` and ```menu.unlock()``` , can lock or unlock the menu . when menu is locked , user can't navigate or select anything on it .
 
@@ -32,13 +34,14 @@ example : ```menu.updateItem(2 , "Contact")```  . this changes item index 2 in t
 sometimes we want to have some items that can create a new menu when user selects that . ```menu.reCreate(new_title , new_items)``` can do this . ```new_title``` is the title of the new menu and ```new_items``` is a list that contains the items of new menu . 
 
 example : 
-![reCreate menu example](.Pictures/source2.png)
+![reCreate menu example](https://github.com/mrpythonblog/menufather/raw/main/Pictures/source2.png)
+
 after running this source , if we select "goto menu 2" item , a new menu appears (menu 2) ...
 
 
 # Auto Scrolling  
 if your items are too many , don't worry ! menufather simulate a scrolling state for items :
-![too many item scrolling](.Pictures/toomanyitem.gif)
+![too many item scrolling](https://github.com/mrpythonblog/menufather/raw/main/Pictures/toomanyitem.gif)
 
 
 
