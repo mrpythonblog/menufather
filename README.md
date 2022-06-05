@@ -2,7 +2,7 @@
 **menufather** is a simple and lightweight python library for creating console-based menus (windows / linux) . 
 
 # INSTALLATION
-it can installed using **pip** :
+it can be installed using **pip** :
 **Linux** : ```python3 -m pip install menufather```
 or **Windows** : ``` pip install menufather```
 
