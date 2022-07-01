@@ -1,3 +1,5 @@
+[Persian Document](https://mrpython.blog.ir/post/149)
+
 # menufather Ver 1.0
 **menufather** is a simple and lightweight python library for creating console-based menus (windows / linux) . 
 
